@@ -1,0 +1,23 @@
+HKCR
+{
+	Md5.MD5.1 = s 'MD5 Class'
+	{
+		CLSID = s '{D97FE94D-1ECB-49F5-AFA3-0665194CC47F}'
+	}
+	Md5.MD5 = s 'MD5 Class'
+	{
+		CLSID = s '{D97FE94D-1ECB-49F5-AFA3-0665194CC47F}'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {D97FE94D-1ECB-49F5-AFA3-0665194CC47F} = s 'MD5 Class'
+		{
+			ProgID = s 'Md5.MD5.1'
+			VersionIndependentProgID = s 'Md5.MD5'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'both'
+			}
+		}
+	}
+}

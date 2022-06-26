@@ -1,0 +1,12 @@
+--CREATE DATABASE library; 
+-- USE library;
+-- CREATE TABLE book (bno char(8) ,
+-- 				category char(10),
+-- 				title varchar(40),
+-- 				press varchar(30),
+-- 				year int,
+-- 				author varchar(20),
+-- 				price decimal(7,2),
+-- 				total int ,
+-- 				stock INT,
+-- 				PRIMARY KEY (bno));  

@@ -1,0 +1,125 @@
+一、编译OpenSSL
+
+    在编译OpenSSL前，需要正确安装Perl，因为在编译OpenSSL时需要使用到该程序。
+    
+    下载最新版本的Perl：http://downloads.activestate.com/ActivePerl/Windows/5.8/ActivePerl-5.8.8.822-MSWin32-x86-280952.zip。然后安装之。
+
+    下载最新版本的OpenSSL：http://www.openssl.org/source/openssl-0.9.8g.tar.gz
+    
+    然后将源码释放的c:\openssl-0.9.8g目录中。
+    
+    进入openssl源码目录。
+    cd c:\openssl-0.9.8.g
+    
+    以下为参照该目录下的文件INSTALL.W32的执行过程：
+
+    运行configure：
+    perl Configure VC-WIN32 --prefix=c:/openssl
+
+    创建Makefile文件：
+    ms\do_ms
+    
+    编译动态库：
+    nmake -f ms\ntdll.mak
+    编译静态库：
+    nmake -f ms\nt.mak
+
+    测试动态库：
+    nmake -f ms\ntdll.mak test
+    测试静态库：
+    nmake -f ms\nt.mak test
+
+    安装动态库：
+    nmake -f ms\ntdll.mak install
+    安装静态库：
+    nmake -f ms\nt.mak install
+
+    清除上次动态库的编译，以便重新编译：
+    nmake -f ms\ntdll.mak clean
+    清除上次静态库的编译，以便重新编译：
+    nmake -f ms\nt.mak clean
+
+二、使用OpenSSL
+
+    在VC中配置使用以上的函数库：
+    点击菜单：Tools -> Options，弹出对话框"Options"，在该对话框中选择"Directories"标签。
+    在"Show directories for:"的"Include files"选项中新增目录"C:\openssl\include"；"Library files"选择中新增目录"C:\openssl\lib"。
+    然后在需要链接OpenSSL函数库的工程中编译时加入"libeay32.lib"就可以了。
+
+三、问题
+
+    我在链接OpenSSL的静态函数库时遇到类似以下的问题：
+    Linking...
+    msvcrt.lib(MSVCRT.dll) : error LNK2005: _strchr already defined in libcmtd.lib(strchr.obj)
+    ...
+    
+    这是由于OpenSSL的静态函数库使用的是了VC的多线程DLL的Release版本，而我的程序使用了多线程静态链接的Release版本。
+
+    调整OpenSSL的静态函数库使用的库函数版本即可，调整过程如下：
+    
+    编辑文件 ms\nt.mak，将该文件第19行
+    "CFLAG= /MD /Ox /O2 /Ob2 /W3 /WX /Gs0 /GF /Gy /nologo -DOPENSSL_SYSNAME_WIN32 -DWIN32_LEAN_AND_MEAN -DL_ENDIAN -DDSO_WIN32 -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE /Fdout32 -DOPENSSL_NO_CAMELLIA -DOPENSSL_NO_SEED -DOPENSSL_NO_RC5 -DOPENSSL_NO_MDC2 -DOPENSSL_NO_TLSEXT -DOPENSSL_NO_KRB5 -DOPENSSL_NO_DYNAMIC_ENGINE"
+    中的"/MD"修改为"/MT"。然后重新编译安装OpenSSL即可。
+
+四、附录：在VC中对C/C++ 运行时库不同版本编译指令说明
+    《在VC中对C/C++ 运行时库不同版本编译指令说明》(http://blog.yesky.com/271/dgkang/1737771.shtml)一文中详细介绍了连接不同版本库的编译指令如下：
+    C Runtime Library：
+        /MD        MSVCRT.LIB     多线程DLL的Release版本
+        /MDd       MSVCRTD.LIB    多线程DLL的Debug版本
+        /MT        LIBCMT.LIB     多线程静态链接的Release版本
+        /MTd       LIBCMTD.LIB    多线程静态链接的Debug版本
+        /clr       MSVCMRT.LIB    托管代码和非托管代码混合
+        /clr:pure  MSVCURT.LIB    纯托管代码
+    C++ Standard Library：
+        /MD       MSVCPRT.LIB     多线程DLL的Release版本
+        /MDd      MSVCPRTD.LIB    多线程DLL的Debug版本
+        /MT       LIBCPMT.LIB     多线程静态链接的Release版本
+        /MTd      LIBCPMTD.LIB    多线程静态链接的Debug版本
+
+==================================================================
+Openssl的版本使用openssl-0.9.8a，可以到http://www.openssl.org（openssl的官方网站）下载。
+
+1、安装 ActivePerl
+
+openssl需要使用perl（版本为ActivePerl-5.8.8.817-MSWin32-x86-257965）进行一些配置，windows下我找了 ActivePerl 用于对编译环境进行配置，下面是安装ActivePerl的过程，采用默认安装即可，Perl的文件默认安装在c:\Perl目录下： 
+
+ 
+
+2、配置win32下的编译环境
+
+在openssl目录里面执行Perl Configure VC-WIN32 用于配置win32下的编译环境
+
+ 
+
+执行ms\do_ms.bat文件继续配置；
+
+ 
+
+3、配置VC环境变量
+
+进入VC安装路径，执行 VCVARS32.BAT（vc6一般在 Microsoft Visual Studio\VC98\Bin目录），这一步是设置临时的环境变量；
+
+注意：运行Vcvars32的时候，可能会出现错误：Out of environment space，这个错误的产生是因为MS－DOS环境变量没有分配足够的内存，可以通过如下方法解决：
+
+     a.点击开始, 点击运行；
+
+     b.输入sysedit后回车运行该程序； 
+
+     c.然后会出现多个窗口，选择Config.sys窗口； 
+
+     d.如果存在Shell= 的语句, 在其前面输入 REM ，即注释该语句；
+
+     e.如果该语句不存在，就直接输入SHELL=C:\COMMAND.COM /E:4096 /P ，注意，要保证该语句是从第一行第一个位置开始输入的；
+
+     f.保存、退出重新启动电脑就应该可以解决这个问题。
+
+     按上述方法解决这个问题之后，重新启动电脑后可以直接执行第4步。
+
+4、执行最后的编译
+
+在命令行界面上回到openssl目录，执行 nmake -f ms\ntdll.mak，等待几分钟后编译完成，命令行界面自动消失。编译结果保存在d:\openssl\out32dll\目录下面。
+
+ 
+
+注意：最后一步编译时可能出现错误：“NMAKE : fatal error U1077: 'ml' : return code '0x1' Stop.”，产生这种错误的可能原因是vc6的bin目录下没有ml.exe这个文件。该文件包含在MASM程序中。我的解决办法是到网上下载了一个MASM程序，安装上之后把ml.exe拷贝到VC6的bin目录下即可解决。
+

@@ -1,0 +1,20 @@
+// md5.idl : IDL source for md5.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (md5.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(F4A16FB3-FC9B-4E31-AE31-C14D7C4BADCB),
+	version(1.0),
+	helpstring("md5 1.0 Type Library")
+]
+library MD5Lib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};

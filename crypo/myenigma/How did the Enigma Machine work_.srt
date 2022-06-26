@@ -1,0 +1,1882 @@
+﻿1
+00:00:01,160 --> 00:00:03,300
+- [Jared] This is the Enigma machine.
+
+2
+00:00:03,300 --> 00:00:05,160
+It looks like a typewriter but it has
+
+3
+00:00:05,160 --> 00:00:07,180
+a very different purpose.
+
+4
+00:00:07,180 --> 00:00:09,965
+During World War II it was
+used to keep messages secret
+
+5
+00:00:09,965 --> 00:00:12,371
+or in other words encrypted.
+
+6
+00:00:12,371 --> 00:00:16,193
+In this video, we'll look at
+why the Enigma machine exists,
+
+7
+00:00:17,160 --> 00:00:19,450
+how it was used and then we'll
+take a look at the inside
+
+8
+00:00:19,450 --> 00:00:22,104
+to see how the mechanism works.
+
+9
+00:00:22,104 --> 00:00:25,187
+(electricity buzzes)
+
+10
+00:00:28,230 --> 00:00:30,430
+This video is sponsored by Brilliant,
+
+11
+00:00:30,430 --> 00:00:33,650
+a fun and interactive way
+to learn math and science.
+
+12
+00:00:33,650 --> 00:00:34,820
+Towards the end of this video
+
+13
+00:00:34,820 --> 00:00:37,363
+we'll take a closer look
+at their website and app.
+
+14
+00:00:39,020 --> 00:00:41,010
+While making this video
+I had a lot of help
+
+15
+00:00:41,010 --> 00:00:43,290
+from enigmamuseum.com.
+
+16
+00:00:43,290 --> 00:00:45,517
+These guys took a part
+in actual enigma machine
+
+17
+00:00:45,517 --> 00:00:47,930
+and showed me what's on the inside,
+
+18
+00:00:47,930 --> 00:00:50,510
+behind the panels, all the inside wiring
+
+19
+00:00:50,510 --> 00:00:53,100
+and how each mechanical piece works.
+
+20
+00:00:53,100 --> 00:00:55,290
+This would have taken a
+lot longer to 3D model
+
+21
+00:00:55,290 --> 00:00:57,330
+and animate without their help.
+
+22
+00:00:57,330 --> 00:00:59,379
+So big thanks to enigmamuseum.com
+
+23
+00:00:59,379 --> 00:01:02,080
+and now let's get to some animation.
+
+24
+00:01:02,080 --> 00:01:03,806
+To really understand the Enigma machine
+
+25
+00:01:03,806 --> 00:01:06,809
+we need to understand
+something called encryption.
+
+26
+00:01:06,809 --> 00:01:08,770
+Let's use an example.
+
+27
+00:01:08,770 --> 00:01:11,490
+Say we have two friends, Alice and Bob.
+
+28
+00:01:11,490 --> 00:01:13,499
+Alice wants to send a message to Bob
+
+29
+00:01:13,500 --> 00:01:15,450
+however, Alice doesn't want anyone else
+
+30
+00:01:15,450 --> 00:01:18,095
+to be able to read this
+message such as Eve.
+
+31
+00:01:18,095 --> 00:01:21,110
+Just as an example we'll keep
+the message really simple.
+
+32
+00:01:21,110 --> 00:01:24,662
+Alice will need to scramble
+the contents of the message.
+
+33
+00:01:24,662 --> 00:01:27,450
+This is called encryption.
+
+34
+00:01:27,450 --> 00:01:29,270
+It looks like a bunch of random letters
+
+35
+00:01:29,270 --> 00:01:31,530
+and if Eve gets a hold of
+it then she won't be able
+
+36
+00:01:31,530 --> 00:01:33,160
+to understand it.
+
+37
+00:01:33,160 --> 00:01:35,250
+When the message gets to Bob he needs
+
+38
+00:01:35,250 --> 00:01:36,920
+to unscramble the message.
+
+39
+00:01:36,920 --> 00:01:38,702
+This is called decryption.
+
+40
+00:01:38,702 --> 00:01:40,973
+Now he can read the original message.
+
+41
+00:01:40,973 --> 00:01:42,956
+Alice and Bob need to agree on a way
+
+42
+00:01:42,956 --> 00:01:45,870
+to encrypt and decrypt their messages.
+
+43
+00:01:45,870 --> 00:01:48,723
+A real simple way to do this
+is called a Caesar cipher.
+
+44
+00:01:48,723 --> 00:01:52,040
+This involves shifting all
+the letters in the message
+
+45
+00:01:52,040 --> 00:01:54,270
+three spaces to the right in the alphabet
+
+46
+00:01:54,270 --> 00:01:58,367
+so an H becomes a K, an E becomes an H,
+
+47
+00:01:58,367 --> 00:02:02,386
+an L becomes an O, an L becomes another O,
+
+48
+00:02:02,387 --> 00:02:05,200
+and an O becomes an R.
+
+49
+00:02:05,200 --> 00:02:07,260
+Now the message looks like gibberish,
+
+50
+00:02:07,260 --> 00:02:09,200
+A bunch of random letters.
+
+51
+00:02:09,199 --> 00:02:11,509
+When Bob gets the message all he has to do
+
+52
+00:02:11,510 --> 00:02:15,260
+is take each letter and
+move it back three spaces.
+
+53
+00:02:15,260 --> 00:02:17,160
+This will give him the original message
+
+54
+00:02:17,160 --> 00:02:19,010
+so he can read it again.
+
+55
+00:02:19,010 --> 00:02:21,590
+Now Eve in the middle, as
+long as she doesn't know
+
+56
+00:02:21,590 --> 00:02:23,440
+how the messages were encrypted
+
+57
+00:02:23,440 --> 00:02:25,683
+she won't be able to read any one of them.
+
+58
+00:02:26,720 --> 00:02:29,900
+During war encryption
+is extremely important.
+
+59
+00:02:29,900 --> 00:02:32,280
+Commanding officers need to
+be able to get messages out
+
+60
+00:02:32,280 --> 00:02:33,660
+to the troops on the battlefield
+
+61
+00:02:33,660 --> 00:02:35,150
+but they don't want the enemy to be able
+
+62
+00:02:35,150 --> 00:02:37,572
+to understand these messages.
+
+63
+00:02:37,572 --> 00:02:40,693
+Nowadays encryption is
+performed by computers
+
+64
+00:02:40,693 --> 00:02:43,300
+but this wasn't always the case.
+
+65
+00:02:43,300 --> 00:02:47,026
+The Enigma machine was used to
+encrypt and decrypt messages.
+
+66
+00:02:47,026 --> 00:02:49,540
+You can think of this
+as a very sophisticated
+
+67
+00:02:49,540 --> 00:02:51,010
+letter scrambler.
+
+68
+00:02:51,010 --> 00:02:52,646
+It was invented in the early 1900s
+
+69
+00:02:52,646 --> 00:02:55,090
+and then most famously, it was used
+
+70
+00:02:55,090 --> 00:02:57,600
+by the German military in the 1930s
+
+71
+00:02:57,600 --> 00:02:59,273
+and throughout World War II.
+
+72
+00:03:02,040 --> 00:03:05,264
+This is the keyboard with 26 letters.
+
+73
+00:03:05,264 --> 00:03:09,380
+And this is the lamp board
+which also has 26 letters
+
+74
+00:03:09,380 --> 00:03:10,963
+but these letters can light up.
+
+75
+00:03:11,970 --> 00:03:14,130
+Each time you press a
+letter on the keyboard,
+
+76
+00:03:14,130 --> 00:03:16,570
+a letter on the lamp board lights up,
+
+77
+00:03:16,570 --> 00:03:18,450
+but it will always be a different letter
+
+78
+00:03:18,450 --> 00:03:20,500
+than the one that was pressed.
+
+79
+00:03:20,500 --> 00:03:22,320
+There are usually two people involved
+
+80
+00:03:22,320 --> 00:03:24,894
+when the machine is used, one
+person to type in the letters
+
+81
+00:03:24,894 --> 00:03:27,260
+and another person to
+write down the letters
+
+82
+00:03:27,260 --> 00:03:29,540
+that appear on the lamp board.
+
+83
+00:03:29,540 --> 00:03:31,243
+Let's use our example from earlier.
+
+84
+00:03:31,243 --> 00:03:34,480
+Type in each letter and
+write down the letters
+
+85
+00:03:34,480 --> 00:03:36,550
+that appear on the lamp board.
+
+86
+00:03:36,550 --> 00:03:38,450
+Now we have our encrypted message,
+
+87
+00:03:38,450 --> 00:03:40,830
+the scrambled letters
+that nobody can read.
+
+88
+00:03:40,830 --> 00:03:44,290
+This message is sent usually
+by radio using morse code.
+
+89
+00:03:44,290 --> 00:03:46,610
+The person who receives this message also
+
+90
+00:03:46,610 --> 00:03:48,740
+has their own Enigma machine.
+
+91
+00:03:48,740 --> 00:03:51,140
+To decrypt the message or unscramble it
+
+92
+00:03:51,140 --> 00:03:52,700
+they type in the letters on the keyboard
+
+93
+00:03:52,700 --> 00:03:54,490
+and write down which letters appear
+
+94
+00:03:54,490 --> 00:03:57,940
+on the lamp board and out
+comes the original message.
+
+95
+00:03:57,940 --> 00:04:00,510
+The Enigma machine was used for both
+
+96
+00:04:00,510 --> 00:04:03,102
+encryption and decryption.
+
+97
+00:04:03,102 --> 00:04:05,880
+The person sending the
+message needs a machine
+
+98
+00:04:05,880 --> 00:04:07,327
+and the person receiving the message
+
+99
+00:04:07,327 --> 00:04:10,103
+also needs a machine to
+be able to read it again.
+
+100
+00:04:11,060 --> 00:04:13,440
+So how does the Enigma
+machine know which letters
+
+101
+00:04:13,440 --> 00:04:14,640
+to give you?
+
+102
+00:04:14,640 --> 00:04:18,090
+Maybe you press an A and outcomes an H.
+
+103
+00:04:18,089 --> 00:04:19,192
+How does it do that?
+
+104
+00:04:20,130 --> 00:04:22,700
+Well, part of the answer is electricity.
+
+105
+00:04:22,700 --> 00:04:25,120
+Let me show you a simple example.
+
+106
+00:04:25,120 --> 00:04:28,000
+We have a battery, some
+wires, and then something
+
+107
+00:04:28,000 --> 00:04:31,430
+that uses electricity in
+this case, a light bulb.
+
+108
+00:04:31,430 --> 00:04:32,630
+This is called a circuit.
+
+109
+00:04:32,630 --> 00:04:35,920
+It's a closed loop for
+the electricity to flow.
+
+110
+00:04:35,920 --> 00:04:37,250
+But if there's a break in the wire,
+
+111
+00:04:37,250 --> 00:04:39,660
+then the light bulb turns off.
+
+112
+00:04:39,660 --> 00:04:42,160
+If we put a switch in here,
+now we can easily turn
+
+113
+00:04:42,160 --> 00:04:44,340
+the light bulb on or off.
+
+114
+00:04:44,340 --> 00:04:48,280
+There has to be a complete path
+for the electricity to flow.
+
+115
+00:04:48,280 --> 00:04:50,830
+Now let's add another
+path, one more switch,
+
+116
+00:04:50,830 --> 00:04:51,890
+and a light bulb.
+
+117
+00:04:51,890 --> 00:04:54,220
+Now we can turn on two
+different light bulbs
+
+118
+00:04:54,220 --> 00:04:56,170
+depending on which switch we turn on,
+
+119
+00:04:56,170 --> 00:04:58,538
+there's a different
+path through the wires.
+
+120
+00:04:58,538 --> 00:05:00,721
+We could expand this even more,
+
+121
+00:05:00,721 --> 00:05:03,327
+more switches and more light bulbs.
+
+122
+00:05:03,327 --> 00:05:05,480
+Now, this is predictable.
+
+123
+00:05:05,480 --> 00:05:08,680
+We know which switch
+goes to which light bulb,
+
+124
+00:05:08,680 --> 00:05:11,310
+but what if we scramble these wires?
+
+125
+00:05:11,310 --> 00:05:13,670
+Now the switch for the letter A turns on
+
+126
+00:05:13,670 --> 00:05:15,871
+the letter C light bulb and the C switch
+
+127
+00:05:15,871 --> 00:05:18,495
+turns on the B light bulb.
+
+128
+00:05:18,495 --> 00:05:21,125
+This idea of scrambling the wires,
+
+129
+00:05:21,125 --> 00:05:24,120
+that's how the Enigma machine works.
+
+130
+00:05:24,120 --> 00:05:26,290
+Let me show you on the real thing.
+
+131
+00:05:26,290 --> 00:05:29,530
+The battery is inside in
+the top right-hand corner
+
+132
+00:05:29,530 --> 00:05:31,040
+of the machine.
+
+133
+00:05:31,040 --> 00:05:33,800
+The keyboard has 26 keys.
+
+134
+00:05:33,800 --> 00:05:36,010
+When you press one of
+them it connects a circuit
+
+135
+00:05:36,010 --> 00:05:40,040
+which will then turn on one
+of these 26 light bulbs.
+
+136
+00:05:40,040 --> 00:05:42,010
+The light bulbs will then
+illuminate the letter
+
+137
+00:05:42,010 --> 00:05:44,330
+that's directly above
+it on the lamp board.
+
+138
+00:05:44,330 --> 00:05:46,300
+When you release the key, the circuit
+
+139
+00:05:46,300 --> 00:05:49,540
+is disconnected and the
+light bulb turns off.
+
+140
+00:05:49,540 --> 00:05:51,420
+Each key connects a different path
+
+141
+00:05:51,420 --> 00:05:53,610
+which means a different light bulb.
+
+142
+00:05:53,610 --> 00:05:56,460
+Okay, this is the
+challenging part of the video
+
+143
+00:05:56,460 --> 00:05:58,670
+understanding the circuit or the path
+
+144
+00:05:58,670 --> 00:06:01,920
+that the electricity follows
+throughout the Enigma machine.
+
+145
+00:06:01,920 --> 00:06:03,570
+Maybe pause the video, get your degree
+
+146
+00:06:03,570 --> 00:06:07,070
+in electrical engineering
+and then let's do this.
+
+147
+00:06:07,070 --> 00:06:09,360
+The three main parts that
+we need to understand
+
+148
+00:06:09,360 --> 00:06:14,360
+are the rotors, the keyboard
+mechanism, and the plugboard.
+
+149
+00:06:15,900 --> 00:06:17,820
+Let's start up here with the rotors.
+
+150
+00:06:17,820 --> 00:06:19,940
+This machine has three of them.
+
+151
+00:06:19,940 --> 00:06:22,620
+This is where the letters get scrambled.
+
+152
+00:06:22,620 --> 00:06:24,327
+Let's take a look at one of the rotors.
+
+153
+00:06:24,327 --> 00:06:28,210
+You have the numbers one
+through 26 for all the letters.
+
+154
+00:06:28,210 --> 00:06:31,924
+So one is for A, two is
+for B, three is for C
+
+155
+00:06:31,924 --> 00:06:35,703
+and all the way around until 26 for Z.
+
+156
+00:06:36,710 --> 00:06:39,470
+On the side you'll see
+26 metal contact points.
+
+157
+00:06:39,470 --> 00:06:43,283
+There are also 26 on the other side too.
+
+158
+00:06:44,120 --> 00:06:46,030
+When you put two of these rotors together
+
+159
+00:06:46,030 --> 00:06:48,580
+the metal contacts
+connect, making it possible
+
+160
+00:06:48,580 --> 00:06:51,070
+for electricity to pass through.
+
+161
+00:06:51,070 --> 00:06:52,790
+On the inside of these three rotors
+
+162
+00:06:52,790 --> 00:06:55,680
+you'll find lots of wires
+that connects the two sides,
+
+163
+00:06:55,680 --> 00:06:58,490
+but as you can see, it's all scrambled.
+
+164
+00:06:58,490 --> 00:07:01,780
+So let's go through the
+pin for the number one.
+
+165
+00:07:01,780 --> 00:07:06,250
+Follow the wire through
+and it comes out the pin
+
+166
+00:07:06,250 --> 00:07:08,170
+for the number four.
+
+167
+00:07:08,170 --> 00:07:11,739
+So in this case an A was changed to a D.
+
+168
+00:07:11,739 --> 00:07:14,290
+When electricity travels through one rotor
+
+169
+00:07:14,290 --> 00:07:15,750
+it changes the letter once.
+
+170
+00:07:15,750 --> 00:07:18,080
+But remember, we have
+three of these rotors
+
+171
+00:07:18,080 --> 00:07:21,460
+and they each have different
+wirings on the inside.
+
+172
+00:07:21,460 --> 00:07:24,210
+When electricity travels
+through all three of them
+
+173
+00:07:24,210 --> 00:07:26,832
+it changes the letter three times.
+
+174
+00:07:26,832 --> 00:07:30,780
+Then at the end, we have the reflector.
+
+175
+00:07:30,780 --> 00:07:34,276
+This also has 26 metal contacts.
+
+176
+00:07:34,276 --> 00:07:38,890
+Inside is more wiring that
+connects the letters in pairs.
+
+177
+00:07:38,890 --> 00:07:41,740
+So it goes in as one
+letter and then comes out
+
+178
+00:07:41,740 --> 00:07:42,793
+as another letter.
+
+179
+00:07:44,110 --> 00:07:46,756
+To the right of here is the input wheel.
+
+180
+00:07:46,756 --> 00:07:49,790
+It has 26 wires that go in and connects
+
+181
+00:07:49,790 --> 00:07:52,223
+to the 26 metal contacts.
+
+182
+00:07:53,360 --> 00:07:54,980
+Let's put this all together.
+
+183
+00:07:54,980 --> 00:07:57,699
+Electricity flows through
+one of the 26 wires,
+
+184
+00:07:57,699 --> 00:08:00,700
+let's say the wire for the letter Y.
+
+185
+00:08:00,700 --> 00:08:02,670
+Then it gets changed to a different letter
+
+186
+00:08:02,670 --> 00:08:04,480
+at all three rotors.
+
+187
+00:08:04,480 --> 00:08:07,527
+Then it hits the reflector,
+which again, changes the letter.
+
+188
+00:08:07,527 --> 00:08:09,615
+And then it goes back
+through the rotors again
+
+189
+00:08:09,615 --> 00:08:12,570
+which changes the letter three more times.
+
+190
+00:08:12,570 --> 00:08:14,620
+And it comes back out on
+a wire that represents
+
+191
+00:08:14,620 --> 00:08:16,750
+a completely different letter.
+
+192
+00:08:16,750 --> 00:08:18,970
+And if you were counting,
+this means the letter
+
+193
+00:08:18,970 --> 00:08:21,819
+was changed seven times.
+
+194
+00:08:21,819 --> 00:08:24,300
+Now, this is just an
+example of how the letters
+
+195
+00:08:24,300 --> 00:08:29,300
+could get scrambled, but the
+path can and will change.
+
+196
+00:08:30,100 --> 00:08:31,850
+Each of these three rotors can rotate
+
+197
+00:08:31,850 --> 00:08:34,030
+to 26 different positions.
+
+198
+00:08:34,030 --> 00:08:35,943
+When any one of the
+rotors changes positions
+
+199
+00:08:35,943 --> 00:08:38,980
+this will also change
+the path of electricity
+
+200
+00:08:38,980 --> 00:08:41,770
+making it very difficult
+to predict which letters
+
+201
+00:08:41,770 --> 00:08:42,870
+are going to come out.
+
+202
+00:08:45,640 --> 00:08:48,980
+The 26 wires from the input
+will travel down the right side
+
+203
+00:08:48,980 --> 00:08:52,070
+of the machine to the
+plugboard in the very front.
+
+204
+00:08:52,070 --> 00:08:54,050
+Now the plugboard was yet another way
+
+205
+00:08:54,050 --> 00:08:56,299
+that the letters could
+be around specifically,
+
+206
+00:08:56,299 --> 00:08:57,981
+you could swap two letters.
+
+207
+00:08:57,981 --> 00:09:01,533
+So let's say we wanna
+switch the W and the J.
+
+208
+00:09:01,533 --> 00:09:03,930
+You could take one of these cables here
+
+209
+00:09:03,930 --> 00:09:07,389
+with plugs at each end and put
+one of them into the W spot
+
+210
+00:09:07,389 --> 00:09:10,464
+and the other one in the J spot.
+
+211
+00:09:10,464 --> 00:09:12,090
+On the back side of the plugboard,
+
+212
+00:09:12,090 --> 00:09:14,490
+you can see the individual wires going
+
+213
+00:09:14,490 --> 00:09:17,760
+to the tops of each socket,
+and then out to the bottom
+
+214
+00:09:17,760 --> 00:09:19,260
+of each socket.
+
+215
+00:09:19,260 --> 00:09:20,730
+Let's take a closer look.
+
+216
+00:09:20,730 --> 00:09:23,930
+This is the plugboard
+socket for the letter O.
+
+217
+00:09:23,930 --> 00:09:26,239
+If nothing is plugged into
+it the electricity flows in
+
+218
+00:09:26,239 --> 00:09:30,250
+through the top, then
+through the shorting bar
+
+219
+00:09:30,250 --> 00:09:32,180
+and then out through the bottom.
+
+220
+00:09:32,180 --> 00:09:34,700
+This means that the plugboard
+didn't change the letter.
+
+221
+00:09:34,700 --> 00:09:36,910
+It came in as the letter
+O and then it came out
+
+222
+00:09:36,910 --> 00:09:38,480
+as the letter O.
+
+223
+00:09:38,480 --> 00:09:41,024
+When a plug is inserted, it
+pushes up the shorting bar
+
+224
+00:09:41,024 --> 00:09:43,830
+so it doesn't connect anymore.
+
+225
+00:09:43,830 --> 00:09:46,158
+Now the electricity
+flows in through the top,
+
+226
+00:09:46,158 --> 00:09:49,000
+out through the top pin of the plug,
+
+227
+00:09:49,000 --> 00:09:52,190
+then through the cable and
+out through the bottom.
+
+228
+00:09:52,190 --> 00:09:53,860
+On the other side.
+
+229
+00:09:53,860 --> 00:09:57,903
+What came in as an O now
+it comes out as an E.
+
+230
+00:09:59,470 --> 00:10:03,160
+Often times, they would use
+up to 10 of these cables.
+
+231
+00:10:03,160 --> 00:10:05,460
+Notice how a few of these
+letters are still left
+
+232
+00:10:05,460 --> 00:10:06,453
+without a plug.
+
+233
+00:10:09,160 --> 00:10:11,750
+Let's take a look at
+the keyboard mechanism.
+
+234
+00:10:11,750 --> 00:10:15,570
+Each of these keys is connected
+to a long stem beneath it.
+
+235
+00:10:15,570 --> 00:10:17,370
+They have springs that push them back up
+
+236
+00:10:17,370 --> 00:10:19,210
+when you release the key.
+
+237
+00:10:19,210 --> 00:10:23,071
+the last row of keys have the
+springs connected at the top.
+
+238
+00:10:23,071 --> 00:10:25,240
+Right next to all of these keys
+
+239
+00:10:25,240 --> 00:10:27,580
+most of the space is taken up.
+
+240
+00:10:27,580 --> 00:10:30,920
+These are the 26 key switches.
+
+241
+00:10:30,920 --> 00:10:32,929
+These switches are a
+little bit more complex
+
+242
+00:10:32,930 --> 00:10:35,430
+than just the on-off
+switches that we saw earlier.
+
+243
+00:10:35,430 --> 00:10:37,390
+Let's take a look at
+just one of the switches.
+
+244
+00:10:37,390 --> 00:10:39,430
+This one is for the letter P.
+
+245
+00:10:39,430 --> 00:10:42,589
+The switch has three
+different copper colored tabs.
+
+246
+00:10:42,589 --> 00:10:45,459
+The wires are connected back here,
+
+247
+00:10:45,459 --> 00:10:47,980
+and the flow of electricity is controlled
+
+248
+00:10:47,980 --> 00:10:49,530
+from the other end.
+
+249
+00:10:49,530 --> 00:10:51,630
+When a key is pressed it comes down
+
+250
+00:10:51,630 --> 00:10:53,910
+and hits the rubber end of the middle tab.
+
+251
+00:10:53,910 --> 00:10:57,267
+What this does is changes
+where the electricity can flow.
+
+252
+00:10:57,267 --> 00:11:00,725
+Before a key is pressed the
+top two tabs are connected,
+
+253
+00:11:00,725 --> 00:11:03,820
+and after the key is pressed, the bottom
+
+254
+00:11:03,820 --> 00:11:05,123
+two tabs are connected.
+
+255
+00:11:06,182 --> 00:11:11,182
+There are 26 key switches
+and here's all the wires
+
+256
+00:11:11,440 --> 00:11:13,180
+that are connected to them.
+
+257
+00:11:13,180 --> 00:11:16,070
+The top tabs are connected
+to the light bulbs.
+
+258
+00:11:16,070 --> 00:11:19,890
+The wires go to the left
+and up to the corresponding
+
+259
+00:11:19,890 --> 00:11:21,563
+26 light bulbs.
+
+260
+00:11:24,860 --> 00:11:27,730
+The middle tabs connect to the plugboard.
+
+261
+00:11:27,730 --> 00:11:30,386
+They go through the wires to
+the right side of the machine
+
+262
+00:11:30,386 --> 00:11:34,177
+and down to the corresponding
+letters on the plugboard.
+
+263
+00:11:35,820 --> 00:11:37,890
+A wire from the battery goes directly
+
+264
+00:11:37,890 --> 00:11:40,633
+into the bottom tabs of each key switch.
+
+265
+00:11:42,250 --> 00:11:44,991
+So each switch has three different tabs
+
+266
+00:11:44,991 --> 00:11:49,630
+and three different places
+where they are connected to.
+
+267
+00:11:49,630 --> 00:11:51,850
+Before a key is pressed the bottom tab
+
+268
+00:11:51,850 --> 00:11:53,942
+isn't connected to
+anything so the electricity
+
+269
+00:11:53,942 --> 00:11:55,920
+has nowhere to go.
+
+270
+00:11:55,920 --> 00:11:59,350
+This is true for all 26 key switches.
+
+271
+00:11:59,350 --> 00:12:02,373
+No circuit, which means all
+the light bulbs are off.
+
+272
+00:12:03,460 --> 00:12:05,563
+Now let's say we press the X key.
+
+273
+00:12:07,560 --> 00:12:09,940
+The battery and the
+plugboard are now connected.
+
+274
+00:12:09,940 --> 00:12:12,570
+This completes a circuit
+but it's not as simple
+
+275
+00:12:12,570 --> 00:12:15,010
+as this circuit we saw earlier.
+
+276
+00:12:15,010 --> 00:12:18,320
+Let me show you a quick overview
+of the path of electricity.
+
+277
+00:12:18,320 --> 00:12:20,170
+Don't worry if you
+can't keep up quite yet,
+
+278
+00:12:20,170 --> 00:12:22,403
+we're gonna go over each part one by one.
+
+279
+00:12:23,258 --> 00:12:25,841
+(mellow music)
+
+280
+00:12:28,720 --> 00:12:31,410
+Let's take a closer look at each step.
+
+281
+00:12:31,410 --> 00:12:34,620
+Electricity flows from
+the battery to the bottom
+
+282
+00:12:34,620 --> 00:12:38,070
+and then middle tab on the
+switch for the letter X.
+
+283
+00:12:38,070 --> 00:12:40,517
+Then it goes directly to the plugboard.
+
+284
+00:12:42,574 --> 00:12:44,070
+And in this case there's
+nothing plugged in
+
+285
+00:12:44,070 --> 00:12:47,980
+for the letter X so it comes
+back out as the letter X,
+
+286
+00:12:47,980 --> 00:12:50,940
+up the side and into the input wheel.
+
+287
+00:12:50,940 --> 00:12:53,810
+Then through three rotors, the reflector,
+
+288
+00:12:53,810 --> 00:12:55,970
+and then back through the rotors again,
+
+289
+00:12:55,970 --> 00:12:58,380
+changing letters at each step of the way.
+
+290
+00:12:58,380 --> 00:13:01,993
+What started as the letter
+X is now the letter K.
+
+291
+00:13:03,780 --> 00:13:06,870
+Now we come back to the
+plugboard for the second time.
+
+292
+00:13:06,870 --> 00:13:09,413
+The letter K is swapped with a C.
+
+293
+00:13:10,750 --> 00:13:14,950
+So in through the letter
+K, through the cord,
+
+294
+00:13:14,950 --> 00:13:17,590
+and then out for the letter C.
+
+295
+00:13:17,590 --> 00:13:19,450
+Then travels from the plugboard back
+
+296
+00:13:19,450 --> 00:13:22,500
+to the middle tab on
+the letter C key switch.
+
+297
+00:13:22,500 --> 00:13:25,270
+Remember we started as the letter X
+
+298
+00:13:25,270 --> 00:13:27,923
+but then came back in as the letter C.
+
+299
+00:13:29,020 --> 00:13:31,338
+Then it goes out the wire of the top tab
+
+300
+00:13:31,338 --> 00:13:34,653
+and up to the letter C light bulb.
+
+301
+00:13:36,340 --> 00:13:39,604
+Then the current flows through
+the metal light bulb plate
+
+302
+00:13:39,604 --> 00:13:43,590
+to this tiny wire which
+connects back to the battery.
+
+303
+00:13:43,590 --> 00:13:45,950
+This completes our circuit.
+
+304
+00:13:45,950 --> 00:13:48,320
+As soon as the key is
+released no more circuit
+
+305
+00:13:48,320 --> 00:13:50,780
+and the light bulb turns off.
+
+306
+00:13:50,780 --> 00:13:53,610
+So just to recap, once a key is pressed
+
+307
+00:13:53,610 --> 00:13:55,700
+electricity goes from the battery
+
+308
+00:13:55,700 --> 00:13:58,260
+to whichever key switch was pressed.
+
+309
+00:13:58,260 --> 00:14:02,839
+Then the plugboard, rotors,
+then back to the plugboard,
+
+310
+00:14:02,839 --> 00:14:05,935
+then the key switch for
+our new scrambled letter,
+
+311
+00:14:05,935 --> 00:14:08,660
+then the corresponding light bulb
+
+312
+00:14:08,660 --> 00:14:10,740
+and then back to the battery.
+
+313
+00:14:10,740 --> 00:14:14,895
+The letter has changed
+seven times at the rotors,
+
+314
+00:14:14,895 --> 00:14:19,337
+and then possibly two more
+times at the plugboard.
+
+315
+00:14:20,740 --> 00:14:23,080
+Remember that the letter
+isn't always changed
+
+316
+00:14:23,080 --> 00:14:24,817
+when it goes to the plugboard.
+
+317
+00:14:28,300 --> 00:14:31,270
+Okay, the electric circuit was
+the hard part of the video.
+
+318
+00:14:31,270 --> 00:14:33,230
+If you made it this far, we're doing good,
+
+319
+00:14:33,230 --> 00:14:35,830
+but there's a little bit
+more that I wanna show you.
+
+320
+00:14:38,310 --> 00:14:40,689
+Each time a key is pressed
+you'll notice that at least one
+
+321
+00:14:40,689 --> 00:14:43,490
+of these three rotors will turn.
+
+322
+00:14:43,490 --> 00:14:48,220
+Press a key rotor turns,
+press a key rotor turns.
+
+323
+00:14:48,220 --> 00:14:49,748
+This means that if you press a key twice
+
+324
+00:14:49,748 --> 00:14:52,830
+you'll get two different letters.
+
+325
+00:14:52,830 --> 00:14:55,400
+In fact, if you keep
+pressing the same letter
+
+326
+00:14:55,400 --> 00:14:58,140
+a different light turns on every time.
+
+327
+00:14:58,140 --> 00:15:00,330
+This is what made Enigma so powerful.
+
+328
+00:15:00,330 --> 00:15:02,900
+The code was always changing
+so it was hard to predict
+
+329
+00:15:02,900 --> 00:15:05,240
+which letters were going to come out.
+
+330
+00:15:05,240 --> 00:15:07,880
+The way these rotor spin
+is completely mechanical.
+
+331
+00:15:07,880 --> 00:15:09,650
+No electricity needed for this.
+
+332
+00:15:09,650 --> 00:15:11,350
+Even if the battery was taken out,
+
+333
+00:15:11,350 --> 00:15:14,610
+pressing one of these keys
+would still turn the rotor.
+
+334
+00:15:14,610 --> 00:15:17,080
+On the bottom of the machine
+is a large metal plate
+
+335
+00:15:17,080 --> 00:15:19,275
+called the actuator bar.
+
+336
+00:15:19,275 --> 00:15:23,380
+It works like a seesaw or a teeter-totter.
+
+337
+00:15:23,380 --> 00:15:26,540
+Pressing any of the keys
+pushes it down on this side,
+
+338
+00:15:26,540 --> 00:15:28,933
+which pushes it up on the other side.
+
+339
+00:15:29,770 --> 00:15:32,623
+Around the backside is
+where the magic happens.
+
+340
+00:15:34,581 --> 00:15:38,510
+This uses a ratchet and pawl mechanism.
+
+341
+00:15:38,510 --> 00:15:40,258
+This is the ratchet gear.
+
+342
+00:15:40,258 --> 00:15:42,973
+And this small piece is the pawl.
+
+343
+00:15:43,867 --> 00:15:46,420
+When the pawl is pushed
+up it spins the rotor
+
+344
+00:15:46,420 --> 00:15:48,260
+and then comes back down.
+
+345
+00:15:48,260 --> 00:15:51,640
+You can see how this would
+spin it in only one direction.
+
+346
+00:15:51,640 --> 00:15:54,070
+This up and down motion will
+keep spinning the rotors
+
+347
+00:15:54,070 --> 00:15:56,250
+one slot each time.
+
+348
+00:15:56,250 --> 00:15:58,710
+The next two rotors
+work a little different.
+
+349
+00:15:58,710 --> 00:16:00,500
+Let's take a look at the second one.
+
+350
+00:16:00,500 --> 00:16:02,750
+Most of the time the
+pawl can't make contact
+
+351
+00:16:02,750 --> 00:16:04,960
+with the ratchet gear teeth.
+
+352
+00:16:04,960 --> 00:16:07,971
+It's blocked by an edge around
+here on the first rotor.
+
+353
+00:16:07,971 --> 00:16:12,049
+The first rotor has a tiny
+notch around the side here.
+
+354
+00:16:12,050 --> 00:16:15,880
+When the rotor spins the
+notch travels around the edge.
+
+355
+00:16:15,880 --> 00:16:17,760
+Watch what happens when it comes up again
+
+356
+00:16:17,760 --> 00:16:19,240
+on the other side.
+
+357
+00:16:19,240 --> 00:16:21,150
+The pawl will fit right into the notch
+
+358
+00:16:21,150 --> 00:16:24,840
+and the second rotor is
+allowed to spin, but just once.
+
+359
+00:16:24,840 --> 00:16:26,580
+The next time it will be blocked again
+
+360
+00:16:26,580 --> 00:16:29,690
+and only the first rotor
+is allowed to spin.
+
+361
+00:16:29,690 --> 00:16:32,210
+That edge on the first
+rotor has to go all the way
+
+362
+00:16:32,210 --> 00:16:35,050
+around before the second rotor
+is allowed to spin again.
+
+363
+00:16:35,050 --> 00:16:38,490
+This will happen once
+every 26 key presses.
+
+364
+00:16:38,490 --> 00:16:40,680
+The same thing with the third rotor.
+
+365
+00:16:40,680 --> 00:16:42,300
+There's another edge on the second rotor
+
+366
+00:16:42,300 --> 00:16:43,910
+that has to go all the way around
+
+367
+00:16:43,910 --> 00:16:46,974
+before the third one is allowed to spin.
+
+368
+00:16:46,974 --> 00:16:50,450
+Last but not least we
+have the three levers
+
+369
+00:16:50,450 --> 00:16:54,220
+on the very back with index
+wheels at the very end.
+
+370
+00:16:54,220 --> 00:16:57,200
+They ride along the outside
+of the rotor gear teeth.
+
+371
+00:16:57,200 --> 00:16:59,690
+This means that the rotors
+always stop spinning
+
+372
+00:16:59,690 --> 00:17:00,720
+at the next number.
+
+373
+00:17:00,720 --> 00:17:02,776
+This is important so that
+the electrical contacts
+
+374
+00:17:02,776 --> 00:17:07,510
+always line up between the rotors.
+
+375
+00:17:07,510 --> 00:17:09,500
+Before you use the Enigma machine,
+
+376
+00:17:09,500 --> 00:17:12,310
+it would need to be configured
+with the right settings.
+
+377
+00:17:12,310 --> 00:17:14,660
+There are four of these
+settings to go through.
+
+378
+00:17:16,880 --> 00:17:18,920
+First is the rotor order.
+
+379
+00:17:18,920 --> 00:17:21,628
+Each Enigma machine came
+with a set of five rotors.
+
+380
+00:17:21,627 --> 00:17:25,809
+Choose three of them and
+then choose which order
+
+381
+00:17:25,810 --> 00:17:27,360
+to put them in.
+
+382
+00:17:27,359 --> 00:17:29,689
+Then there's the ring
+setting for each rotor
+
+383
+00:17:29,690 --> 00:17:32,540
+which is basically the
+shifting of these number wheels
+
+384
+00:17:32,540 --> 00:17:35,393
+but that also includes
+the notch on the side.
+
+385
+00:17:37,400 --> 00:17:40,040
+This means this will change
+when the leftmost rotors
+
+386
+00:17:40,040 --> 00:17:42,053
+can be advanced to the next number.
+
+387
+00:17:42,980 --> 00:17:45,530
+Then there's the starting
+position for each rotor.
+
+388
+00:17:45,530 --> 00:17:48,363
+You can set this to the
+tiny windows up here.
+
+389
+00:17:50,000 --> 00:17:52,290
+And the final setting is the configuration
+
+390
+00:17:52,290 --> 00:17:54,423
+of the plugboard at the very front.
+
+391
+00:17:56,500 --> 00:17:59,110
+So everyone in the German
+army had these settings
+
+392
+00:17:59,110 --> 00:18:00,000
+in advance.
+
+393
+00:18:00,000 --> 00:18:01,610
+They were distributed out by paper
+
+394
+00:18:01,610 --> 00:18:03,340
+so they would know
+which settings to use
+
+395
+00:18:03,340 --> 00:18:04,713
+on which day of the month.
+
+396
+00:18:05,620 --> 00:18:08,725
+Even if the opposing side
+has their own Enigma machine,
+
+397
+00:18:08,725 --> 00:18:10,890
+they won't be able to read the messages
+
+398
+00:18:10,890 --> 00:18:14,370
+unless they know the settings
+that were in use that day.
+
+399
+00:18:14,370 --> 00:18:16,302
+Some of the ideas behind
+the Enigma machine
+
+400
+00:18:16,302 --> 00:18:19,980
+are complex and sometimes
+difficult to understand.
+
+401
+00:18:19,980 --> 00:18:21,750
+However, it may come easier to those
+
+402
+00:18:21,750 --> 00:18:25,180
+that increase their ability
+to do math and science.
+
+403
+00:18:25,180 --> 00:18:27,470
+brilliant.org is a problem solving website
+
+404
+00:18:27,470 --> 00:18:30,848
+and app that has over 60
+courses in mathematics,
+
+405
+00:18:30,848 --> 00:18:33,980
+science and computer science.
+
+406
+00:18:33,980 --> 00:18:35,829
+The idea here is to learn by doing.
+
+407
+00:18:35,829 --> 00:18:38,900
+They teach you a concept and
+then immediately you get to try
+
+408
+00:18:38,900 --> 00:18:41,280
+it out in a fun and engaging way.
+
+409
+00:18:41,280 --> 00:18:43,833
+You can use Brilliant to help
+you as a student in school
+
+410
+00:18:43,833 --> 00:18:46,540
+or as a professional or anyone who wants
+
+411
+00:18:46,540 --> 00:18:48,300
+to keep their skills sharp.
+
+412
+00:18:48,300 --> 00:18:49,730
+There's a wide range of content
+
+413
+00:18:49,730 --> 00:18:52,860
+and they're even adding new
+courses from time to time.
+
+414
+00:18:52,860 --> 00:18:55,390
+Instead of just learning a
+formula and blindly plugging
+
+415
+00:18:55,390 --> 00:18:57,415
+in the numbers, you
+get to visually see why
+
+416
+00:18:57,415 --> 00:18:59,530
+that formula works.
+
+417
+00:18:59,530 --> 00:19:01,250
+There's nothing quite so satisfying
+
+418
+00:19:01,250 --> 00:19:04,050
+as when that light bulb
+goes off in your brain.
+
+419
+00:19:04,050 --> 00:19:05,470
+I like Brilliant because it shows
+
+420
+00:19:05,470 --> 00:19:08,030
+that learning can and should be fun.
+
+421
+00:19:08,030 --> 00:19:09,360
+You can sign up for free by going
+
+422
+00:19:09,360 --> 00:19:11,369
+to brilliant.org/jaredowen.
+
+423
+00:19:11,370 --> 00:19:14,180
+Also the first 200 people will get 20% off
+
+424
+00:19:14,180 --> 00:19:16,806
+their annual premium membership.
+
+425
+00:19:16,806 --> 00:19:19,389
+(mellow music)
+

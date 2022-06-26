@@ -1,0 +1,240 @@
+﻿1
+00:00:00,000 --> 00:00:05,509
+this enigma one machine manufactured in
+
+2
+00:00:02,939 --> 00:00:09,090
+the early 1940s for the German Wehrmacht
+
+3
+00:00:05,509 --> 00:00:11,130
+comes in its original oak case when I
+
+4
+00:00:09,090 --> 00:00:13,380
+unscrew the locking bolts and lift the
+
+5
+00:00:11,130 --> 00:00:15,929
+hinged lid the battery compartment is
+
+6
+00:00:13,380 --> 00:00:17,760
+visible on the right the state or the
+
+7
+00:00:15,929 --> 00:00:19,920
+three rotors and the reflector are
+
+8
+00:00:17,760 --> 00:00:23,070
+lettered with the B in red are visible
+
+9
+00:00:19,920 --> 00:00:24,869
+before a message was encoded these had
+
+10
+00:00:23,070 --> 00:00:28,230
+to be removed and programmed according
+
+11
+00:00:24,869 --> 00:00:30,119
+to the settings for the given day I lift
+
+12
+00:00:28,230 --> 00:00:33,120
+out the three rotors on their spindle
+
+13
+00:00:30,119 --> 00:00:35,910
+and slide each one off on the right side
+
+14
+00:00:33,120 --> 00:00:38,250
+of this rotor note the 26 brass
+
+15
+00:00:35,910 --> 00:00:40,980
+electrical contacts and the adjustable
+
+16
+00:00:38,250 --> 00:00:44,489
+ring and on the left the bakelite thumb
+
+17
+00:00:40,980 --> 00:00:46,980
+wheel I adjust the ring setting on one
+
+18
+00:00:44,489 --> 00:00:49,200
+of the rotors and reassemble the three
+
+19
+00:00:46,980 --> 00:00:52,440
+rotors in a new order on the spindle
+
+20
+00:00:49,200 --> 00:00:57,180
+each rotor has an identifying roman
+
+21
+00:00:52,440 --> 00:01:00,000
+rotor number finally i reinsert the
+
+22
+00:00:57,180 --> 00:01:03,440
+rotors on the spindle and lock the
+
+23
+00:01:00,000 --> 00:01:03,440
+entire assembly in place
+
+24
+00:01:04,569 --> 00:01:10,239
+note how the rightmost rotor advances
+
+25
+00:01:07,630 --> 00:01:12,670
+with each keystroke after one full
+
+26
+00:01:10,240 --> 00:01:15,400
+revolution the rotor to the left will
+
+27
+00:01:12,670 --> 00:01:18,000
+advance by one position resetting the
+
+28
+00:01:15,400 --> 00:01:21,310
+pattern of the electrical contacts a
+
+29
+00:01:18,000 --> 00:01:23,979
+further level of security is provided by
+
+30
+00:01:21,310 --> 00:01:27,280
+the front plug board or sticker Brett
+
+31
+00:01:23,979 --> 00:01:30,940
+there are 26 double sockets and 13
+
+32
+00:01:27,280 --> 00:01:33,820
+cables each with two pins the German
+
+33
+00:01:30,940 --> 00:01:37,479
+military generally used 10 cables here
+
+34
+00:01:33,820 --> 00:01:39,310
+all 13 are attached finally I close the
+
+35
+00:01:37,479 --> 00:01:41,590
+machine lid and the front flap of the
+
+36
+00:01:39,310 --> 00:01:44,650
+case to ensure that the cables are
+
+37
+00:01:41,590 --> 00:01:47,440
+correctly positioned next we set the
+
+38
+00:01:44,650 --> 00:01:49,509
+power supply to external and set the
+
+39
+00:01:47,440 --> 00:01:51,750
+rotors to the three-letter key for the
+
+40
+00:01:49,509 --> 00:01:51,750
+day
+
+41
+00:01:51,890 --> 00:01:56,479
+let's type in the word enigma
+
+42
+00:01:58,040 --> 00:02:02,960
+when the e is pressed the bulb for J
+
+43
+00:02:01,160 --> 00:02:05,840
+turns on and the right-hand rotor
+
+44
+00:02:02,960 --> 00:02:12,380
+advances one increment similarly n
+
+45
+00:02:05,840 --> 00:02:15,080
+becomes t ir g.b.m e and a/c in this
+
+46
+00:02:12,380 --> 00:02:17,720
+segment we see how the rotor turns with
+
+47
+00:02:15,080 --> 00:02:20,000
+each keystroke the hair marked version
+
+48
+00:02:17,720 --> 00:02:22,130
+of the Enigma machine used numbered
+
+49
+00:02:20,000 --> 00:02:24,230
+positions for each letter not the
+
+50
+00:02:22,130 --> 00:02:25,880
+letters themselves each number
+
+51
+00:02:24,230 --> 00:02:30,880
+corresponds to a letter of the alphabet
+
+52
+00:02:25,880 --> 00:02:34,340
+a is o1 b o 2 and so on
+
+53
+00:02:30,880 --> 00:02:36,650
+to decode i reset the rotors to the
+
+54
+00:02:34,340 --> 00:02:38,720
+initial position in practice the
+
+55
+00:02:36,650 --> 00:02:39,950
+operator would provide a new encoded
+
+56
+00:02:38,720 --> 00:02:43,970
+setting in the message
+
+57
+00:02:39,950 --> 00:02:47,900
+note how in decipherment j becomes e the
+
+58
+00:02:43,970 --> 00:02:53,470
+TN the RI until our original worm
+
+59
+00:02:47,900 --> 00:02:53,470
+one-word plaintext enigma is revealed
+
+60
+00:02:59,290 --> 00:03:01,349
+you
+
