@@ -1,0 +1,21 @@
+ K.Weng  
+oop 5
+ads 5
+os 5       
+0 0
+T.Dixon
+oop 4       
+ads 3       
+python 2 
+java 3
+0 0
+V.Chu
+math   3       
+English 4
+0 0
+L.Tson
+chinese  4       
+C# 3       
+logic 4     
+0 0
+exit

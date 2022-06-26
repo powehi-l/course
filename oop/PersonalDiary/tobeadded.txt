@@ -1,0 +1,7 @@
+2019-02-23
+this is a file to be added to diary
+.
+2020-07-12
+another case to be added.
+this sentence is useless.
+.

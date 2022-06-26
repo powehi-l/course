@@ -1,0 +1,4 @@
+./src       contains the source code of this project.Since there's only a single source file , you can build with any toolchain you like.
+./document  contains the document of this project.
+./build     contains prebuilt binary ( for windows ) of this project , in case you have problems with your compiler.
+./test      contains some test cases of this project.

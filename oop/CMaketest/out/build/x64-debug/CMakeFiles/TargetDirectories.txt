@@ -1,0 +1,3 @@
+D:/Users/Lenovo/Desktop/1/oop/CMaketest/out/build/x64-debug/CMakeFiles/CMaketest.dir
+D:/Users/Lenovo/Desktop/1/oop/CMaketest/out/build/x64-debug/CMakeFiles/edit_cache.dir
+D:/Users/Lenovo/Desktop/1/oop/CMaketest/out/build/x64-debug/CMakeFiles/rebuild_cache.dir

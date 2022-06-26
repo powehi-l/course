@@ -1,0 +1,29 @@
+room0  2 east down
+room1  3 east west down
+room2  3 east west down
+room3  2 west down
+room4  1 down
+
+room5  2 up down
+room6  2 up down
+room7  1 up
+room8  3 east up down
+room9  2 west up
+
+room10 2 up east
+room11 3 west up east
+room12 4 up west east down
+room13 3 west east up
+room14 2 west down
+
+room15 2 east down
+room16 3 east west down
+room17 3 east west up
+room18 3 east west down
+room19 3 west up down
+
+room20 1 up
+room21 2 east up
+room22 2 east west
+room23 2 west up
+room24 1 up

@@ -1,0 +1,343 @@
+insert character : 0 weight : 1
+insert character : 1 weight : 2
+insert character : 2 weight : 3
+insert character : 3 weight : 4
+insert character : 4 weight : 5
+insert character : 5 weight : 6
+insert character : 6 weight : 7
+insert character : 7 weight : 8
+insert character : 8 weight : 9
+insert character : 9 weight : 10
+insert character : a weight : 1
+insert character : b weight : 2
+insert character : c weight : 3
+insert character : d weight : 4
+insert character : e weight : 5
+insert character : f weight : 6
+insert character : g weight : 7
+insert character : h weight : 8
+insert character : i weight : 9
+insert character : j weight : 10
+insert character : k weight : 11
+insert character : l weight : 12
+insert character : m weight : 13
+insert character : n weight : 14
+insert character : o weight : 15
+insert character : p weight : 16
+insert character : q weight : 17
+insert character : r weight : 18
+insert character : s weight : 19
+insert character : t weight : 20
+insert character : u weight : 21
+insert character : v weight : 22
+insert character : w weight : 23
+insert character : x weight : 24
+insert character : y weight : 25
+insert character : z weight : 26
+insert character : A weight : 1
+insert character : B weight : 2
+insert character : C weight : 3
+insert character : D weight : 4
+insert character : E weight : 5
+insert character : F weight : 6
+insert character : G weight : 7
+insert character : H weight : 8
+insert character : I weight : 9
+insert character : J weight : 10
+insert character : K weight : 11
+insert character : L weight : 12
+insert character : M weight : 13
+insert character : N weight : 14
+insert character : O weight : 15
+insert character : P weight : 16
+insert character : Q weight : 17
+insert character : R weight : 18
+insert character : S weight : 19
+insert character : T weight : 20
+insert character : U weight : 21
+insert character : V weight : 22
+insert character : W weight : 23
+insert character : X weight : 24
+insert character : Y weight : 25
+insert character : Z weight : 26
+insert character : _ weight : 27
+delete character : 0 weight : 1
+delete character : a weight : 1
+insert character : ! weight : 2
+delete character : A weight : 1
+delete character : b weight : 2
+insert character : ! weight : 3
+delete character : ! weight : 2 (left child : c : 0 w : 1 and right child : c : !  w : 1)
+delete character : 1 weight : 2
+insert character : ! weight : 4
+delete character : B weight : 2
+delete character : 2 weight : 3
+insert character : ! weight : 5
+delete character : ! weight : 3 (left child : c : A w : 1 and right child : c : !  w : 2)
+delete character : c weight : 3
+insert character : ! weight : 6
+delete character : C weight : 3
+delete character : d weight : 4
+insert character : ! weight : 7
+delete character : ! weight : 4 (left child : c : ! w : 2 and right child : c : !  w : 2)
+delete character : D weight : 4
+insert character : ! weight : 8
+delete character : 3 weight : 4
+delete character : e weight : 5
+insert character : ! weight : 9
+delete character : ! weight : 5 (left child : c : B w : 2 and right child : c : !  w : 3)
+delete character : 4 weight : 5
+insert character : ! weight : 10
+delete character : E weight : 5
+delete character : ! weight : 6 (left child : c : ! w : 3 and right child : c : !  w : 3)
+insert character : ! weight : 11
+delete character : 5 weight : 6
+delete character : F weight : 6
+insert character : ! weight : 12
+delete character : f weight : 6
+delete character : 6 weight : 7
+insert character : ! weight : 13
+delete character : ! weight : 7 (left child : c : C w : 3 and right child : c : !  w : 4)
+delete character : G weight : 7
+insert character : ! weight : 14
+delete character : g weight : 7
+delete character : ! weight : 8 (left child : c : ! w : 4 and right child : c : !  w : 4)
+insert character : ! weight : 15
+delete character : H weight : 8
+delete character : h weight : 8
+insert character : ! weight : 16
+delete character : 7 weight : 8
+delete character : ! weight : 9 (left child : c : 3 w : 4 and right child : c : !  w : 5)
+insert character : ! weight : 17
+delete character : I weight : 9
+delete character : i weight : 9
+insert character : ! weight : 18
+delete character : 8 weight : 9
+delete character : ! weight : 10 (left child : c : ! w : 5 and right child : c : !  w : 5)
+insert character : ! weight : 19
+delete character : J weight : 10
+delete character : 9 weight : 10
+insert character : ! weight : 20
+delete character : j weight : 10
+delete character : ! weight : 11 (left child : c : E w : 5 and right child : c : !  w : 6)
+insert character : ! weight : 21
+delete character : K weight : 11
+delete character : k weight : 11
+insert character : ! weight : 22
+delete character : ! weight : 12 (left child : c : 5 w : 6 and right child : c : !  w : 6)
+delete character : L weight : 12
+insert character : ! weight : 24
+delete character : l weight : 12
+delete character : ! weight : 13 (left child : c : f w : 6 and right child : c : !  w : 7)
+insert character : ! weight : 25
+delete character : M weight : 13
+delete character : m weight : 13
+insert character : ! weight : 26
+delete character : ! weight : 14 (left child : c : ! w : 7 and right child : c : !  w : 7)
+delete character : n weight : 14
+insert character : ! weight : 28
+delete character : N weight : 14
+delete character : O weight : 15
+insert character : ! weight : 29
+delete character : o weight : 15
+delete character : ! weight : 15 (left child : c : g w : 7 and right child : c : !  w : 8)
+insert character : ! weight : 30
+delete character : p weight : 16
+delete character : ! weight : 16 (left child : c : H w : 8 and right child : c : !  w : 8)
+insert character : ! weight : 32
+delete character : P weight : 16
+delete character : Q weight : 17
+insert character : ! weight : 33
+delete character : q weight : 17
+delete character : ! weight : 17 (left child : c : 7 w : 8 and right child : c : !  w : 9)
+insert character : ! weight : 34
+delete character : ! weight : 18 (left child : c : I w : 9 and right child : c : !  w : 9)
+delete character : R weight : 18
+insert character : ! weight : 36
+delete character : r weight : 18
+delete character : S weight : 19
+insert character : ! weight : 37
+delete character : s weight : 19
+delete character : ! weight : 19 (left child : c : 8 w : 9 and right child : c : !  w : 10)
+insert character : ! weight : 38
+delete character : ! weight : 20 (left child : c : J w : 10 and right child : c : !  w : 10)
+delete character : T weight : 20
+insert character : ! weight : 40
+delete character : t weight : 20
+delete character : u weight : 21
+insert character : ! weight : 41
+delete character : U weight : 21
+delete character : ! weight : 21 (left child : c : j w : 10 and right child : c : !  w : 11)
+insert character : ! weight : 42
+delete character : ! weight : 22 (left child : c : K w : 11 and right child : c : !  w : 11)
+delete character : V weight : 22
+insert character : ! weight : 44
+delete character : v weight : 22
+delete character : W weight : 23
+insert character : ! weight : 45
+delete character : w weight : 23
+delete character : ! weight : 24 (left child : c : ! w : 12 and right child : c : !  w : 12)
+insert character : ! weight : 47
+delete character : X weight : 24
+delete character : x weight : 24
+insert character : ! weight : 48
+delete character : Y weight : 25
+delete character : y weight : 25
+insert character : ! weight : 50
+delete character : ! weight : 25 (left child : c : l w : 12 and right child : c : !  w : 13)
+delete character : ! weight : 26 (left child : c : M w : 13 and right child : c : !  w : 13)
+insert character : ! weight : 51
+delete character : z weight : 26
+delete character : Z weight : 26
+insert character : ! weight : 52
+delete character : _ weight : 27
+delete character : ! weight : 28 (left child : c : ! w : 14 and right child : c : !  w : 14)
+insert character : ! weight : 55
+delete character : ! weight : 29 (left child : c : N w : 14 and right child : c : !  w : 15)
+delete character : ! weight : 30 (left child : c : o w : 15 and right child : c : !  w : 15)
+insert character : ! weight : 59
+delete character : ! weight : 32 (left child : c : p w : 16 and right child : c : !  w : 16)
+delete character : ! weight : 33 (left child : c : P w : 16 and right child : c : !  w : 17)
+insert character : ! weight : 65
+delete character : ! weight : 34 (left child : c : q w : 17 and right child : c : !  w : 17)
+delete character : ! weight : 36 (left child : c : ! w : 18 and right child : c : !  w : 18)
+insert character : ! weight : 70
+delete character : ! weight : 37 (left child : c : r w : 18 and right child : c : !  w : 19)
+delete character : ! weight : 38 (left child : c : s w : 19 and right child : c : !  w : 19)
+insert character : ! weight : 75
+delete character : ! weight : 40 (left child : c : ! w : 20 and right child : c : !  w : 20)
+delete character : ! weight : 41 (left child : c : t w : 20 and right child : c : !  w : 21)
+insert character : ! weight : 81
+delete character : ! weight : 42 (left child : c : U w : 21 and right child : c : !  w : 21)
+delete character : ! weight : 44 (left child : c : ! w : 22 and right child : c : !  w : 22)
+insert character : ! weight : 86
+delete character : ! weight : 45 (left child : c : v w : 22 and right child : c : !  w : 23)
+delete character : ! weight : 47 (left child : c : w w : 23 and right child : c : !  w : 24)
+insert character : ! weight : 92
+delete character : ! weight : 48 (left child : c : X w : 24 and right child : c : !  w : 24)
+delete character : ! weight : 50 (left child : c : Y w : 25 and right child : c : !  w : 25)
+insert character : ! weight : 98
+delete character : ! weight : 51 (left child : c : ! w : 25 and right child : c : !  w : 26)
+delete character : ! weight : 52 (left child : c : z w : 26 and right child : c : !  w : 26)
+insert character : ! weight : 103
+delete character : ! weight : 55 (left child : c : _ w : 27 and right child : c : !  w : 28)
+delete character : ! weight : 59 (left child : c : ! w : 29 and right child : c : !  w : 30)
+insert character : ! weight : 114
+delete character : ! weight : 65 (left child : c : ! w : 32 and right child : c : !  w : 33)
+delete character : ! weight : 70 (left child : c : ! w : 34 and right child : c : !  w : 36)
+insert character : ! weight : 135
+delete character : ! weight : 75 (left child : c : ! w : 37 and right child : c : !  w : 38)
+delete character : ! weight : 81 (left child : c : ! w : 40 and right child : c : !  w : 41)
+insert character : ! weight : 156
+delete character : ! weight : 86 (left child : c : ! w : 42 and right child : c : !  w : 44)
+delete character : ! weight : 92 (left child : c : ! w : 45 and right child : c : !  w : 47)
+insert character : ! weight : 178
+delete character : ! weight : 98 (left child : c : ! w : 48 and right child : c : !  w : 50)
+delete character : ! weight : 103 (left child : c : ! w : 51 and right child : c : !  w : 52)
+insert character : ! weight : 201
+delete character : ! weight : 114 (left child : c : ! w : 55 and right child : c : !  w : 59)
+delete character : ! weight : 135 (left child : c : ! w : 65 and right child : c : !  w : 70)
+insert character : ! weight : 249
+delete character : ! weight : 156 (left child : c : ! w : 75 and right child : c : !  w : 81)
+delete character : ! weight : 178 (left child : c : ! w : 86 and right child : c : !  w : 92)
+insert character : ! weight : 334
+delete character : ! weight : 201 (left child : c : ! w : 98 and right child : c : !  w : 103)
+delete character : ! weight : 249 (left child : c : ! w : 114 and right child : c : !  w : 135)
+insert character : ! weight : 450
+delete character : ! weight : 334 (left child : c : ! w : 156 and right child : c : !  w : 178)
+delete character : ! weight : 450 (left child : c : ! w : 201 and right child : c : !  w : 249)
+insert character : ! weight : 784
+delete character : ! weight : 784 (left child : c : ! w : 334 and right child : c : !  w : 450)
+11000
+10110
+10111
+10100
+10011
+01111
+10001
+01101
+01110
+01010
+01100
+01001
+00111
+00100
+00110
+00011
+00001
+00000
+111110
+111101
+111100
+111001
+111010
+110111
+110110
+110010
+110011
+101011
+100101
+100001
+100100
+010001
+010110
+001010
+000101
+001011
+1110111
+1111110
+1111111
+1101011
+1110000
+1110110
+1101000
+1010101
+1101001
+1000001
+0101111
+1000000
+0100000
+0101110
+0001001
+11010101
+11100011
+11100010
+10101000
+10101001
+01000011
+00010000
+00010001
+110101001
+010000100
+010000101
+110101000
+10000
+10110
+10111
+10100
+10011
+01111
+10001
+01101
+01110
+01010
+01100
+01001
+00111
+00100
+00110
+00011
+00001
+00000
+111110
+111101
+111100
+111001
+111010
+110111
+110110
+110010
+110011
+101011
+100101
+100001

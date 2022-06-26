@@ -1,0 +1,49 @@
+dequeue 0 0
+decrease 0->1 = 11
+decrease 0->3 = 266
+decrease 0->6 = 162
+decrease 0->11 = 298
+decrease 0->17 = 156
+decrease 0->7 = 39
+decrease 0->19 = 129
+dequeue 1 11
+decrease 1->2 = 67
+decrease 1->10 = 112
+decrease 1->18 = 220
+decrease 1->13 = 141
+decrease 1->14 = 198
+decrease 1->15 = 152
+decrease 1->9 = 275
+dequeue 7 39
+decrease 7->5 = 272
+decrease 7->8 = 314
+dequeue 2 67
+decrease 2->4 = 286
+decrease 2->5 = 118
+decrease 2->15 = 106
+decrease 2->8 = 281
+decrease 2->10 = 72
+dequeue 10 72
+decrease 10->19 = 118
+dequeue 15 106
+decrease 15->12 = 140
+dequeue 5 118
+dequeue 19 118
+dequeue 12 140
+dequeue 13 141
+decrease 13->16 = 366
+dequeue 17 156
+decrease 17->3 = 212
+decrease 17->11 = 234
+decrease 17->16 = 189
+dequeue 6 162
+dequeue 16 189
+dequeue 14 198
+dequeue 3 212
+decrease 3->8 = 267
+decrease 3->4 = 247
+dequeue 18 220
+dequeue 11 234
+dequeue 4 247
+dequeue 8 267
+dequeue 9 275
